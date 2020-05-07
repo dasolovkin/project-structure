@@ -44,7 +44,7 @@ export default class ColumnChart {
   }
 
   get template () {
-    return `
+    return `  
       <div class="column-chart" style="--chart-height: ${this.chartHeight}">
         <div class="column-chart__title">
           Total ${this.label}
